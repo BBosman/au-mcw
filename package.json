@@ -1,0 +1,17 @@
+{
+  "author": "S.B.G. Bosman",
+  "bugs": "https://github.com/BBosman/au-mcw/issues",
+  "contributors": [],
+  "dependencies": {},
+  "description": "Material Components Web for Aurelia",
+  "homepage": "https://github.com/BBosman/au-mcw/#readme",
+  "license": "MIT",
+  "keywords": ["material", "mcw", "aurelia"],
+  "name": "@au-mcw/mono",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBosman/au-mcw.git"
+  },
+  "version": "0.0.1"
+}
