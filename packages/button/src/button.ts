@@ -1,4 +1,4 @@
-import { bindable, computedFrom, containerless } from 'aurelia-framework';
+import { bindable, computedFrom, containerless, customElement } from 'aurelia-framework';
 import './button.css';
 
 /**
@@ -7,6 +7,7 @@ import './button.css';
  * https://material.io/go/design-buttons
  */
 @containerless()
+@customElement('au-mcw-button')
 export class AuMcwButton {
   @bindable public disabled: boolean = false;
   @bindable public label: string = '';
