@@ -8,7 +8,7 @@ module.exports = merge(common, {
   mode: 'production',
   name: 'production',
   performance: {
-    maxEntrypointSize: 300000
+    maxEntrypointSize: 500000
   },
   plugins: [
     new webpack.HashedModuleIdsPlugin(),
