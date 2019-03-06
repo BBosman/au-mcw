@@ -11,5 +11,5 @@ export declare class AuMcwButton {
     raised: boolean;
     unelevated: boolean;
     readonly classes: string;
-    onclick: (event: MouseEvent) => boolean;
+    onclick: () => true;
 }

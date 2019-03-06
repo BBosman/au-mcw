@@ -4,11 +4,10 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 var aurelia_framework_1 = require("aurelia-framework");
-__export(require("./button"));
+__export(require("./ripple"));
 exports.configure = function (aurelia) {
-    aurelia.plugin('@au-mcw-ripple');
     aurelia.globalResources([
-        aurelia_framework_1.PLATFORM.moduleName('./button')
+        aurelia_framework_1.PLATFORM.moduleName('./ripple')
     ]);
 };
 //# sourceMappingURL=index.js.map

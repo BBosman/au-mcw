@@ -18,16 +18,13 @@ require("./button.css");
  */
 var AuMcwButton = /** @class */ (function () {
     function AuMcwButton() {
-        var _this = this;
         this.disabled = false;
         this.label = '';
         this.outlined = false;
         this.raised = false;
         this.unelevated = false;
         // Add a default click handler, in case one isn't specified.
-        this.onclick = function (event) {
-            return _this.button.dispatchEvent(event);
-        };
+        this.onclick = function () { return true; };
     }
     Object.defineProperty(AuMcwButton.prototype, "classes", {
         get: function () {
@@ -76,7 +73,8 @@ var AuMcwButton = /** @class */ (function () {
         __metadata("design:type", Function)
     ], AuMcwButton.prototype, "onclick", void 0);
     AuMcwButton = __decorate([
-        aurelia_framework_1.containerless()
+        aurelia_framework_1.containerless(),
+        aurelia_framework_1.customElement('au-mcw-button')
     ], AuMcwButton);
     return AuMcwButton;
 }());
