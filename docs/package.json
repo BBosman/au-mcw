@@ -1,0 +1,51 @@
+{
+  "author": "S.B.G. Bosman",
+  "bugs": "https://github.com/BBosman/au-mcw/issues",
+  "contributors": [],
+  "dependencies": {
+    "@au-mcw/button": "latest",
+    "aurelia-bootstrapper": "^2.0.0",
+    "aurelia-framework": "^1.3.0"
+  },
+  "description": "Documentation for Material Components Web for Aurelia",
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.8",
+    "aurelia-webpack-plugin": "^3.0.0",
+    "csp-html-webpack-plugin": "^3.0.1",
+    "css-loader": "^2.1.0",
+    "fork-ts-checker-webpack-plugin": "^0.5.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "resource-hints-webpack-plugin": "0.0.2",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.13.1",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "homepage": "https://github.com/BBosman/au-mcw/#readme",
+  "keywords": [
+    "material",
+    "mcw",
+    "aurelia",
+    "docs"
+  ],
+  "license": "MIT",
+  "name": "@au-mcw/docs",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BBosman/au-mcw.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "lint": "tslint --project tsconfig.json -t stylish",
+    "start": "webpack-dev-server --config webpack.dev.js"
+  },
+  "version": "0.0.1"
+}
