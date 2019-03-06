@@ -104,7 +104,7 @@ module.exports = {
         'media-src': "'self'",
         'object-src': "'none'",
         'script-src': ["'unsafe-inline'", "'self'"],
-        'style-src': ["'self'", "'sha256-ATeSIcqM6UxTblzmyyICgZWZUpvkDFfJxeK3WjeUN90='"]
+        'style-src': ["'self'", "'unsafe-inline'"]
       }, {
         enabled: true,
         hashingMethod: 'sha256'
