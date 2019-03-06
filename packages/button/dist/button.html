@@ -1,0 +1,8 @@
+<template>
+  <require from="./button.css"></require>
+  <button ref="button" class="mdc-button \${classes}" disabled.bind="disabled" click.trigger="onclick($event)">
+  <slot></slot>
+  <span class="mdc-button__label">\${label}</span>
+  <slot name="after"></slot>
+  </button>
+</template>
