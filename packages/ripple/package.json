@@ -3,11 +3,10 @@
   "bugs": "https://github.com/BBosman/au-mcw/issues",
   "contributors": [],
   "dependencies": {
-    "@au-mcw/ripple": "^0.0.1",
-    "@material/button": "^1.0.0-1",
+    "@material/ripple": "^1.0.0-1",
     "aurelia-framework": "^1.3.0"
   },
-  "description": "Material Components Web for Aurelia - Button",
+  "description": "Material Components Web for Aurelia - Ripple",
   "devDependencies": {
     "copyfiles": "^2.1.0",
     "rimraf": "^2.6.3",
@@ -25,11 +24,11 @@
     "material",
     "mcw",
     "aurelia",
-    "button"
+    "ripple"
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "@au-mcw/button",
+  "name": "@au-mcw/ripple",
   "publishConfig": {
     "access": "public"
   },
@@ -45,5 +44,5 @@
     "watch": "tsc -b -w"
   },
   "types": "dist/index.d.ts",
-  "version": "0.1.3"
+  "version": "0.0.1"
 }
