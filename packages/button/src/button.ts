@@ -30,7 +30,5 @@ export class AuMcwButton {
   }
 
   // Add a default click handler, in case one isn't specified.
-  @bindable public onclick: (event: MouseEvent) => boolean = (event: MouseEvent) => {
-    return this.button.dispatchEvent(event);
-  }
+  @bindable public onclick: () => true = () => true;
 }
