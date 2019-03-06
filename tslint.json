@@ -6,6 +6,8 @@
   ],
   "rules": {
     "export-name": false,
-    "newline-per-chained-call": false
+    "newline-per-chained-call": false,
+    "no-import-side-effect": false,
+    "no-relative-imports": false
   }
 }

@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var aurelia_framework_1 = require("aurelia-framework");
-require("./button.css"); // tslint:disable-line:no-relative-imports no-import-side-effect
+require("./button.css");
 /**
  * Buttons allow users to take actions, and make choices, with a single tap.
  * Material Design guidelines: Buttons:
