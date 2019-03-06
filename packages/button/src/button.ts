@@ -1,4 +1,5 @@
 import { bindable, computedFrom, containerless } from 'aurelia-framework';
+import './button.css'; // tslint:disable-line:no-relative-imports no-import-side-effect
 
 /**
  * Buttons allow users to take actions, and make choices, with a single tap.
