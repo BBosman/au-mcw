@@ -1,0 +1,25 @@
+{
+  "command": {
+    "bootstrap": {
+      "hoist": "**"
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "ignoreChanges": [
+        "*.md"
+      ],
+      "message": "chore: publish"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "ignoreChanges": [
+        "*.md"
+      ],
+      "message": "chore: publish"
+    }
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent"
+}

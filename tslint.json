@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-microsoft-contrib",
+    "tslint-sonarts"
+  ],
+  "rules": {
+    "export-name": false,
+    "newline-per-chained-call": false
+  }
+}

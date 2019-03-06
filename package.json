@@ -4,14 +4,36 @@
   "contributors": [],
   "dependencies": {},
   "description": "Material Components Web for Aurelia",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/config-lerna-scopes": "^7.5.1",
+    "husky": "^1.3.1",
+    "lerna": "^3.13.1"
+  },
   "homepage": "https://github.com/BBosman/au-mcw/#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "material",
+    "mcw",
+    "aurelia"
+  ],
   "license": "MIT",
-  "keywords": ["material", "mcw", "aurelia"],
   "name": "@au-mcw/mono",
   "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BBosman/au-mcw.git"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "postinstall": "lerna bootstrap --ci",
+    "lint": "lerna run lint"
   },
   "version": "0.0.1"
 }
